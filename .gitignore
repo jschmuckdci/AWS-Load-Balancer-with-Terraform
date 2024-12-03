@@ -1,0 +1,26 @@
+# Local Terraform directories
+.terraform/
+
+# State files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Lock files
+.terraform.lock.hcl
+
+# Crash log files
+crash.log
+
+# Ignore plan files
+*.tfplan
+
+# Ignore variable files that may contain sensitive information
+*.tfvars
+*.tfvars.json
+
+# VS Code settings (optional, if you want to exclude editor-specific settings)
+.vscode/
+
+#keys
+asg-key.pem
+bastion-key.pem
